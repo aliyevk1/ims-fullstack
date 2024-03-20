@@ -56,7 +56,7 @@ Remember, keeping the project's dependencies isolated in a virtual environment h
 
 ### Main Page
 
-![Main Page](<link-to-main-page-image>)
+![Main Page]([<link-to-main-page-image>](https://github.com/k-aliyev/ims-fullstack/blob/master/Screenshot%202024-03-20%20171812.png))
 
 ### Add Item
 
