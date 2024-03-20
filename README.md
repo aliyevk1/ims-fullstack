@@ -40,8 +40,6 @@ After cloning the repository to your local machine:
 
 Once the dependencies are installed, you'll need to activate the virtual environment managed by `pipenv`. This ensures that the correct versions of the packages are used when running the project or any related commands.
 
-### Running the Project
-
 ## Running the Project
 
 This project is divided into two main parts: the Django backend and the Vue.js frontend. Follow the steps below to get both parts up and running on your local machine.
