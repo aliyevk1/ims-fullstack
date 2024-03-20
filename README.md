@@ -42,9 +42,64 @@ Once the dependencies are installed, you'll need to activate the virtual environ
 
 ### Running the Project
 
-With the virtual environment activated, you can now run the project. This typically involves starting the backend server and the frontend development server. Refer to specific sections below for commands related to starting these components.
+## Running the Project
 
-Remember, keeping the project's dependencies isolated in a virtual environment helps maintain consistency across development, testing, and production environments, reducing the chance of encountering "it works on my machine" issues.
+This project is divided into two main parts: the Django backend and the Vue.js frontend. Follow the steps below to get both parts up and running on your local machine.
+
+### Running the Django Backend
+
+1. **Activate the Virtual Environment**: Before running the Django project, make sure you've activated the virtual environment created by `pipenv`. This ensures that the correct versions of dependencies are used.
+
+2. **Navigate to the Backend Directory**: Change your directory to where the Django project is located.
+
+3. **Apply Migrations**: Ensure your database is up to date with the latest migrations.
+
+    ```
+    python manage.py migrate
+    ```
+
+4. **Start the Django Development Server**: Use the following command to start the server:
+
+    ```
+    python manage.py runserver
+    ```
+
+    By default, the server will start on `http://localhost:8000`. You can access the Django admin panel or API endpoints from this address.
+
+### Running the Vue.js Frontend
+
+1. **Navigate to the Frontend Directory**: Change your directory to where the Vue.js project is located.
+
+2. **Install Dependencies**: If this is your first time running the project, or if new dependencies have been added, you'll need to install them using `npm` or `yarn`.
+
+    ```
+    npm install
+    ```
+
+    or
+
+    ```
+    yarn install
+    ```
+
+3. **Start the Vue Development Server**: Use the following command to compile and hot-reload for development:
+
+    ```
+    npm run serve
+    ```
+
+    or
+
+    ```
+    yarn serve
+    ```
+
+    The Vue development server typically starts on `http://localhost:8080`. Open this URL in your browser to view and interact with your Vue.js application.
+
+### Note on API Connectivity
+
+Ensure that the Vue.js frontend is correctly configured to communicate with the Django backend API. This often involves setting the correct base URL for API requests in your Vue.js application's environment variables or configuration files.
+
 
 ## Built With
 
