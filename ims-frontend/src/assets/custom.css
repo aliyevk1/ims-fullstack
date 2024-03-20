@@ -1,0 +1,73 @@
+/* Global Styles for Minimalistic Design */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Centering table and not allowing it to stretch across the entire page */
+  .table-container {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    margin: 20px 0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f7f7f7;
+  }
+  
+  /* Forms */
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Adjust this width as needed */
+    max-width: 400px; /* Prevents the form from stretching too wide */
+    margin: auto; /* Center the form */
+  }
+  
+  form input{
+    margin-bottom: 10px; /* Adds space between form elements */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    cursor: pointer;
+    background-color: #e7e7e7; /* Button background */
+    color: #333; /* Button text color */
+    border: none;
+  }
+  
+  form button:hover {
+    background-color: #ddd;
+  }
