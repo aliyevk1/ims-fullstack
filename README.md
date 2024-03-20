@@ -51,21 +51,23 @@ Remember, keeping the project's dependencies isolated in a virtual environment h
 - **Vue.js** - The web framework used.
 - **Axios** - Used for making HTTP requests.
 - **Vuetify** - A Material Design Framework for Vue.js (if used).
-
 ## Application Screenshots
 
-### Main Page
+### Main Page - Table View
+![Main Page - Table View](https://raw.githubusercontent.com/k-aliyev/ims-fullstack/master/Screenshot%202024-03-20%20171812.png)
 
-![Main Page]([<link-to-main-page-image>]([https://github.com/k-aliyev/ims-fullstack/blob/master/Screenshot%202024-03-20%20171812.png)](https://raw.githubusercontent.com/k-aliyev/ims-fullstack/master/Screenshot%202024-03-20%20171812.png))
-
-### Add Item
-
-![Add Item](<link-to-add-item-page-image>)
+### Delete Modal
+![Delete Modal](https://raw.githubusercontent.com/k-aliyev/ims-fullstack/master/Screenshot%202024-03-20%20171827.png)
 
 ### Edit Item
+![Edit Item](https://raw.githubusercontent.com/k-aliyev/ims-fullstack/master/Screenshot%202024-03-20%20171841.png)
 
-![Edit Item](<link-to-edit-item-page-image>)
+### Add Item - Empty Form
+![Add Item - Empty Form](https://raw.githubusercontent.com/k-aliyev/ims-fullstack/master/Screenshot%202024-03-20%20171933.png)
 
-### Delete Confirmation
+### Add Item - Filled with Example
+![Add Item - Filled with Example](https://raw.githubusercontent.com/k-aliyev/ims-fullstack/master/Screenshot%202024-03-20%20171951.png)
 
-![Delete Confirmation](<link-to-delete-confirmation-modal-image>)
+### Updated Table After Example Add
+![Updated Table After Example Add](https://raw.githubusercontent.com/k-aliyev/ims-fullstack/master/Screenshot%202024-03-20%20172002.png)
+
